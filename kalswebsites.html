@@ -1,0 +1,245 @@
+<html>
+	<head>
+		<title>KaLs Websites</title>
+        <link type="text/css" href="gallery.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
+
+		<script src="js.js"></script>
+		<script>
+            $(document).ready(function(){
+  
+  $(window).scroll(function (){ 
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 100){
+      $('.fix').css({"background-color":"rgb(255,255,255,0.94)"});
+        $('#logo').css("width","15%");
+        $('.fa').css("color","black")
+        $('#icon').css("color","black");
+        $('#logo').attr("src","kals.png");
+         
+        
+    
+    }
+      if ($(window).scrollTop() < 101){
+      $('.fix').css({"background-color":"rgb(0,0,0,0.1)"});
+        $('#logo').css("width","40%");
+        $('#logo').css("padding","0");
+        $('#icon').css("color","white");
+        $('#logo').attr("src","kalsw.png");
+          $('.fa').css("color","white")
+         
+        
+    
+    }
+      
+
+ });
+      });
+            
+        
+		</script>
+		<script>
+function openNav(){
+  document.getElementById("mySidenav").style.width = "250px";
+    
+  
+}
+
+function closeNav(){
+  document.getElementById("mySidenav").style.width = "0";
+
+}
+            
+            
+</script>
+		<style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: 'Cinzel', serif;
+            }
+            
+            
+            
+            
+            
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: gray;   
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+            
+            .fix{
+                width: 100%;
+                position: fixed;
+                background-color: rgb(0,0,0,0.1);
+                min-height:  57px;
+                display:flex;
+                align-items: center
+                    
+
+          
+                
+               
+               
+                
+                
+                
+                
+                
+            }
+            
+             #logo{
+               margin-left: auto;
+                margin-right: auto;
+                display: block;
+                width: 40%;
+                 padding-left: -55px;
+                 
+                 
+                
+            
+                 
+                 
+                
+                
+            }
+            
+             #cover{
+                
+                 background-image: url(Kalsgallery/khalid.jpg);
+                 top: 0;
+                 background-position: center;
+            }
+            
+              
+            #icon{
+                  
+               
+                
+                color: white;
+                left: 0;
+               font-size: 24px;
+                cursor: pointer;
+                margin: 5px;
+               
+                
+            
+                
+               
+                
+                
+                  
+                
+            }
+            
+        
+            h1{
+                text-align: center;
+                padding: 20% 0;
+                background-color: rgb(0,0,0,0.5);
+            }
+            
+           
+            
+            .fa{
+                color: white;
+                width: 20px;
+            }
+            
+        </style>
+	</head>
+	<body id="main">
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Clients</a>
+			<a href="#">Contact</a>
+		</div>
+		<header>
+			<div class="fix">
+				<div class="h1"  id="menu"><div id="icon" onclick="openNav()">&#9776; </div></div>
+				<img class="h1" id="logo" src="kalsw.png">
+                <div class="h1"><div class="fa fa-search"></div></div>
+                
+				</div>
+            </header>
+				<div id="cover">
+					<h1 style="color: white">Sipher is everywhere</h1>
+				</div>
+				<div class="row"> 
+  <div class="column">
+    <img src="Kalsgallery/1.jpg" style="width:100%">
+    <img src="Kalsgallery/2.jpg" style="width:100%">
+    <img src="Kalsgallery/3.jpg" style="width:100%">
+    <img src="Kalsgallery/4.jpg" style="width:100%">
+      <img src="Kalsgallery/19.jpg" style="width:100%">
+    <img src="Kalsgallery/6.jpg" style="width:100%">
+      
+  </div>
+  <div class="column">
+    <img src="Kalsgallery/10.jpg" style="width:100%">
+    <img src="Kalsgallery/11.jpg" style="width:100%">
+    <img src="Kalsgallery/12.jpg" style="width:100%">
+    <img src="Kalsgallery/13.jpg" style="width:100%">
+    <img src="Kalsgallery/14.jpg" style="width:100%">
+    <img src="Kalsgallery/15.jpg" style="width:100%">
+      <img src="Kalsgallery/30.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="Kalsgallery/17.jpg" style="width:100%">
+    <img src="Kalsgallery/18.jpg" style="width:100%">
+    <img src="Kalsgallery/19.jpg" style="width:100%">
+    <img src="Kalsgallery/20.jpg" style="width:100%">
+    <img src="Kalsgallery/21.jpg" style="width:100%">
+    <img src="Kalsgallery/22.jpg" style="width:100%">
+    <img src="Kalsgallery/23.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Kalsgallery/24.jpg" style="width:100%">
+    <img src="Kalsgallery/25.jpg" style="width:100%">
+   <img src="Kalsgallery/5.jpg" style="width:100%">
+    <img src="Kalsgallery/26.jpg" style="width:100%">
+    <img src="Kalsgallery/27.jpg" style="width:100%">
+    <img src="Kalsgallery/7.jpg" style="width:100%">
+      <img src="Kalsgallery/29.jpg" style="width:100%">
+  </div>
+</div>
+
+						
+					</body>
+				</html>
